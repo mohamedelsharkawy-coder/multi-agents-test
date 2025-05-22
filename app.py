@@ -209,8 +209,6 @@ if st.button("Run Crew"):
                 }
             )
         st.success("Crew finished running!")
-        st.write("Needed Skills:")
-        st.write(crew_results)
         st.session_state.crew_ran = True
     else:
         st.warning("Please enter job title, level, and region.")
